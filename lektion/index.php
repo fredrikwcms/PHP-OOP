@@ -18,10 +18,10 @@ include('includes/cart.php');
         $cart = new Cart;
         // var_dump($cart);
         $cart->addItemToCart($fancyShoe); 
-        var_dump($cart);
+        print_r($cart);
 
         $cart->addItemToCart($coolSunglasses);
-        print_r($cart);
+        // print_r($cart);
 
         foreach($cart->items as $item) :
             echo '<h1>' . $item->name . '</h1>';
