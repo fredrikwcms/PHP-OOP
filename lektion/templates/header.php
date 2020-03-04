@@ -1,6 +1,8 @@
 <?
 include('includes/user.php');
 include('includes/nav.php');
+include('includes/dbconfig.php');
+include('includes/test.php');
 ?>
 
 <!DOCTYPE html>
@@ -16,9 +18,9 @@ include('includes/nav.php');
         <nav>
             <?
                 // print_r($navbar);
-                foreach($navbar->links as $link) :
-                    echo "<a href=" . $link . ">Länk</a>";
-                endforeach;
+                // foreach($navbar->links as $link) :
+                //     echo "<a href=" . $link . ">Länk</a>";
+                // endforeach;
             ?>
         </nav>
     </header>
