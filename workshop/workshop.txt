@@ -1,0 +1,9 @@
+Skapa en klass för "article", skapa sedan en sida som listar alla articles.
+--------------------------
+Article:
+
+$title; / $linktext;
+
+$content;
+
+$category; <-- kan vara en array med kategorier
