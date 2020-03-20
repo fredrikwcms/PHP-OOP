@@ -43,6 +43,8 @@ class AnimalController extends Controller
         $animal->name = request('name');
         $animal->type = request('type');
         $animal->color = request('color');
+        $animal->favourite_toys = request('favourite_toys');
+        // error_log(request('favourite_toys'));
 
         $animal->save();
 

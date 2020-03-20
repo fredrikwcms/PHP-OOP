@@ -11,6 +11,14 @@
         <input type="text" id="type" name="type">
         <label for="color">Animal color</label>
         <input type="text" id="color" name="color">
+
+        <fieldset>
+            <label>Favourite toy/s</label><br>
+            <input type="checkbox" name="favourite_toys[]" value="stick">Sticks<br />
+            <input type="checkbox" name="favourite_toys[]" value="ball">Ball<br />
+            <input type="checkbox" name="favourite_toys[]" value="bottle cap">Bottle cap<br />
+            <input type="checkbox" name="favourite_toys[]" value="your headphones">You headphones<br />
+        </fieldset>
         <input type="submit" value="Add Animal">
     </form>
 </div>
